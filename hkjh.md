@@ -1,6 +1,4 @@
 
-@[toc]
-
 # 概述
 
 CatBoost是俄罗斯的搜索巨头Yandex在2017年开源的机器学习库，是Boosting族算法的一种。CatBoost和XGBoost、LightGBM并称为GBDT的三大主流神器，都是在GBDT算法框架下的一种改进实现。XGBoost被广泛的应用于工业界，LightGBM有效的提升了GBDT的计算效率，而Yandex的CatBoost号称是比XGBoost和LightGBM在算法准确率等方面表现更为优秀的算法。
@@ -149,12 +147,15 @@ ordered boosting解决类类别处理及梯度偏差引起的预测偏移问题�
 - 对于类别型特征的处理需要大量的内存和时间；
 - 不同随机数的设定对于模型预测结果有一定的影响；
 
+
+
+
 Ref:
 1. Prokhorenkova, L., Gusev, G., Vorobev, A., Dorogush, A. V. & Gulin, A. CatBoost: unbiased boosting with categorical features. arXiv:1706.09516 [cs] (2017).
 2. Dorogush, A. V., Ershov, V. & Gulin, A. CatBoost: gradient boosting with categorical features support.
 3. [CatBoost算法梳理](https://zhuanlan.zhihu.com/p/80060646)
 4. [深入理解catboost](https://mp.weixin.qq.com/s/xloTLr5NJBgBspMQtxPoFA)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzMzODI0MTUsLTE5NDgzNjA2MjZdfQ
+eyJoaXN0b3J5IjpbLTEzMDU3MjY2MzcsLTE5NDgzNjA2MjZdfQ
 ==
 -->
